@@ -29,3 +29,5 @@ def fromHex(hexNum: str) -> int: #Converts Hexadecimal to Decimal.
         else:
             decNum += int(hexNum[i]) * 16 ** (len(hexNum) - 1 - i)
     return decNum
+# Yo
+# 1

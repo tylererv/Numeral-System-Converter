@@ -87,5 +87,3 @@ def fromHex(hexNum: str) -> int:  # Converts Hexadecimal to Decimal.
         print("Try a valid Hex number.")
         return -1
 
-
-print(fromHex("AE34"))

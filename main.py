@@ -116,7 +116,7 @@ def fromDecimalToBinary(decNum: str) -> int:  # converts a decimal number into a
 def run() -> None:  # Allows the user to pick what Numeral System will be converted and input a number to be converted
     keepGoing = True
     while keepGoing:
-        toBeConverted: str = input("What Numeral System would you like to convert \nor type break to end process: ")
+        toBeConverted: str = input("What Numeral System would you like to convert \nor type 'break' to end process: ")
         # convertedInto: str = input(f"What Numeral System would you like to convert {toBeConverted} into: ")
 
         match toBeConverted.lower():

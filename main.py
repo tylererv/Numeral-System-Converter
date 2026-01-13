@@ -1,6 +1,6 @@
 import time
 
-
+#testing
 def check(number: str, numeralType: str) -> bool:  # Checks the validity of a binary, octal, or hex number
     validNums = []
 
